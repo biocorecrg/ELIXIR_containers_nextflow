@@ -4,8 +4,7 @@ ELIXIR VIB-CRG courses on containers (Docker + Singularity) and Nextflow.
 
 ## When & Where ?
 
-Spring 2020 in Ghent. ***To be confirmed***
-**Option**: Mon 11 & Tue 12 May 2020, Clemenspoort Ghent. 
+Mon 11 & Tue 12 May 2020, Clemenspoort Ghent (confirmed). 
 
 ## Target audience
 
