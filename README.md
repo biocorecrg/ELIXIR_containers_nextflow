@@ -89,3 +89,6 @@ Bioinformaticians with no or little knowledge of containers.
 * https://intellipaat.com/blog/tutorial/devops-tutorial/docker-tutorial/
 * http://containertutorials.com/
 * https://singularity-tutorial.github.io/
+* https://github.com/biocorecrg/containers-course
+* https://www.nextflow.io/docs/latest/index.html
+* https://nf-co.re/usage/nextflow_tutorial
