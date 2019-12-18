@@ -44,16 +44,18 @@ If trainees bring their own laptop, they should install:
       * Write basic recipe: e.g. Ubuntu base layer + ncbi-blast
       * Build and run
     * Working with volumes: *docker run -v ...*
+    * Working with ports
     * ...
   * Singularity
     * Installation ?
     * Differences between Singularity and Docker: why and when to use one or the other. Pros and cons.
-    * Singularity "recipes"
     * Building a basic Singularity image
-    * Pull and run an image with Singularity, from Docker hub
+    ** Pull and run an image with Singularity, from Docker hub or local Docker daemon
+    ** Singularity "recipes"
     * Use Singularity image interactively: *singularity shell*
     * Volumes in Singularity
-    * ...
+    * Instances
+
     
 * Day 2: Nextflow
   * Installation ?
