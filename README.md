@@ -17,8 +17,6 @@ Bioinformaticians with no or little knowledge of containers.
 If trainees bring their own laptop, they should install:
 * ...
 
-
-
 ## Format
 
 2 full days, organized as follows:
@@ -34,15 +32,16 @@ If trainees bring their own laptop, they should install:
     * Docker files, Docker image layers, Docker caching
     * Docker hub: get images from and load images to: *push, pull*
     * Build and run Docker image from existing recipe:
-      * Use Docker image interactively
-      * Checking running containers, stopping an starting containers: *ps, rm*
+      * Build and from recipe *build, run*
+      * Use Docker image interactively *run -it*
+      * Checki running containers, stopping an starting containers: *ps, rm*
       * Remove images: *rmi*
       * Exporting containers into tar files and importing them back
       * Tagging an image: *tag*
     * Docker "recipes":
       * Understand the main sections: *FROM, RUN, ADD, ENV, CP*
       * Write basic recipe: e.g. Ubuntu base layer + ncbi-blast
-      * Build and run
+      * Build and run.
     * Working with volumes: *docker run -v ...*
     * Working with ports
     * ...
@@ -50,13 +49,12 @@ If trainees bring their own laptop, they should install:
     * Installation ?
     * Differences between Singularity and Docker: why and when to use one or the other. Pros and cons.
     * Building a basic Singularity image
-    ** Pull and run an image with Singularity, from Docker hub or local Docker daemon
-    ** Singularity "recipes"
+      * Pull and run an image with Singularity, from Docker hub or local Docker daemon
+      * Singularity "recipes"
     * Use Singularity image interactively: *singularity shell*
     * Volumes in Singularity
     * Instances
 
-    
 * Day 2: Nextflow
   * Installation ?
   * Simple Nextflow pipeline given as an example:
