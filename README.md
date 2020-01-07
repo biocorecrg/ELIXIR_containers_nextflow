@@ -78,8 +78,11 @@ If trainees bring their own laptop, they should install:
     * local vs queue vs cloud systems
     * memory, time and CPU allocation
   * Including Docker and Singularity containers in Nextflow pipelines
-  * Workflow and additional functions 
-  
+  * Additional functions
+    * Tracing, charts
+    * Workflow
+    * Mail notification
+    * Web monitoring: tower.nf
 
 ## Learning objectives
 
