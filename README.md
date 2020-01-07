@@ -59,11 +59,14 @@ If trainees bring their own laptop, they should install:
   * Installation ?
   * Simple Nextflow pipeline given as an example:
     * Run pipeline
-    * Go more in details: understand the config and pipeline (.nf) files, check standard output, ...
-    * Modify pipeline, run again
+    * Going into detail
+      * understand config and pipeline (.nf) files
+      * *work* job directory structure
+      * PID and log files
+    * Pipeline modication and resume
   * Basic concepts: processes, channels, operators
   * Write and run a simple Nextflow pipeline (e.g. print text, process a simple calculation)
-  * Including Singularity containers in Nextflow pipelines
+  * Including Docker and Singularity containers in Nextflow pipelines
   * ...
   
 
