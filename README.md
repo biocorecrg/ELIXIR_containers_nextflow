@@ -66,11 +66,11 @@ If trainees bring their own laptop, they should install:
     * Pipeline modication and resume
   * Basic concepts
    * processes
-    * input
-    * output
-    * script
-    * when
-    * directives: tag, publishDir, etc.
+     * input
+     * output
+     * script
+     * when
+     * directives: tag, publishDir, etc.
    * channels
    * operators
   * Write and run a simple Nextflow pipeline (e.g. print text, process a simple calculation)
