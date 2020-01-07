@@ -26,7 +26,7 @@ If trainees bring their own laptop, they should install:
     * What are containers? Why use them?
     * Containers vs virtual machines
   * Docker
-    * Installation ?
+    * Installation
     * Images and containers
     * Docker architecture
     * Docker files, Docker image layers, Docker caching
@@ -56,7 +56,7 @@ If trainees bring their own laptop, they should install:
     * Instances
 
 * Day 2: Nextflow
-  * Installation ?
+  * Installation, update and versioning
   * Simple Nextflow pipeline given as an example:
     * Run pipeline
     * Going into detail
@@ -66,8 +66,11 @@ If trainees bring their own laptop, they should install:
     * Pipeline modication and resume
   * Basic concepts: processes, channels, operators
   * Write and run a simple Nextflow pipeline (e.g. print text, process a simple calculation)
+  * Executors
+    ** local vs queue vs cloud systems
+    ** memory, time and CPU allocation
   * Including Docker and Singularity containers in Nextflow pipelines
-  * ...
+  * ... 
   
 
 ## Learning objectives
