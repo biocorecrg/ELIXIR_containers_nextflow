@@ -64,13 +64,21 @@ If trainees bring their own laptop, they should install:
       * *work* job directory structure
       * PID and log files
     * Pipeline modication and resume
-  * Basic concepts: processes, channels, operators
+  * Basic concepts
+   * processes
+    * input
+    * output
+    * script
+    * when
+    * directives: tag, publishDir, etc.
+   * channels
+   * operators
   * Write and run a simple Nextflow pipeline (e.g. print text, process a simple calculation)
   * Executors
-    ** local vs queue vs cloud systems
-    ** memory, time and CPU allocation
+    * local vs queue vs cloud systems
+    * memory, time and CPU allocation
   * Including Docker and Singularity containers in Nextflow pipelines
-  * ... 
+  * Workflow and additional functions 
   
 
 ## Learning objectives
