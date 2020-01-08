@@ -23,8 +23,8 @@ If trainees bring their own laptop, they should install:
 * Day 1: containers
   * Introduction to containers
     * History of containers
-    * What are containers? Why use them?
-    * Containers vs virtual machines
+    * What are containers? Why to use them?
+    * Containers vs. virtual machines
   * Docker
     * Installation
     * Images and containers
@@ -34,7 +34,7 @@ If trainees bring their own laptop, they should install:
     * Build and run Docker image from existing recipe:
       * Build and from recipe *build, run*
       * Use Docker image interactively *run -it*
-      * Checki running containers, stopping an starting containers: *ps, rm*
+      * Checking running containers, stopping a starting containers: *ps, rm*
       * Remove images: *rmi*
       * Exporting containers into tar files and importing them back
       * Tagging an image: *tag*
@@ -63,7 +63,7 @@ If trainees bring their own laptop, they should install:
       * understand config and pipeline (.nf) files
       * *work* job directory structure
       * PID and log files
-    * Pipeline modication and resume
+    * Pipeline modification and resume
   * Basic concepts
    * processes
      * input
