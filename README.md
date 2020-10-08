@@ -4,9 +4,7 @@ ELIXIR VIB-CRG courses on containers (Docker + Singularity) and Nextflow.
 
 ## When & Where ?
 
-Mon 11 & Tue 12 May 2020
-
-Clemenspoort Ghent (confirmed). 
+26 & 27 Oct 2020 - online.
 
 ## Target audience
 
@@ -15,7 +13,10 @@ Bioinformaticians with no or little knowledge of containers.
 ## Requirements
 
 If trainees bring their own laptop, they should install:
-* ...
+
+* VNC viewer
+
+* Discord / Zoom / GoTo meeting
 
 ## Format
 
