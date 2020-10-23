@@ -14,7 +14,7 @@ navigation: 4
   * Reproducibility to scientific computing and the high-performance computing (HPC) world.
 * Origin: Lawrence Berkeley National Laboratory. Later spin-off: Sylabs
 * Version 1.0 -> 2016
-* More information: https://en.wikipedia.org/wiki/Singularity_(software)
+* More information: [https://en.wikipedia.org/wiki/Singularity_(software)](https://en.wikipedia.org/wiki/Singularity_(software))
 
 ### Singularity architecture
 
@@ -49,15 +49,15 @@ navigation: 4
 
 * Docker Hub
 
-https://hub.docker.com/r/biocontainers/fastqc
+[https://hub.docker.com/r/biocontainers/fastqc](https://hub.docker.com/r/biocontainers/fastqc)
 
-   singularity build fastqc-0.11.9_cv7.sif docker://biocontainers/fastqc:v0.11.9_cv7
+    singularity build fastqc-0.11.9_cv7.sif docker://biocontainers/fastqc:v0.11.9_cv7
 
 * Biocontainers
 
 **Via quay.io**
 
-https://quay.io/repository/biocontainers/fastqc
+[https://quay.io/repository/biocontainers/fastqc](https://quay.io/repository/biocontainers/fastqc)
 
     singularity build fastqc-0.11.9.sif docker://quay.io/biocontainers/fastqc:0.11.9--0
 
@@ -67,11 +67,12 @@ https://quay.io/repository/biocontainers/fastqc
 
 * Docker Daemon (local Docker image)
 
-    singularity build fastqc-web-0.11.9.sif docker-daemon://fastqcwww
+
+      singularity build fastqc-web-0.11.9.sif docker-daemon://fastqcwww
 
 * Also Singularity registries (not so popular so far)
-  * https://cloud.sylabs.io/library
-  * https://singularity-hub.org/
+  * [https://cloud.sylabs.io/library](https://cloud.sylabs.io/library)
+  * [https://singularity-hub.org/](https://singularity-hub.org/)
 
 ### Sandboxing
 
@@ -144,7 +145,7 @@ Version 0.1.0
 
 ## Remote building
 
-Actually possible with Singularity account. More details at: https://sylabs.io/guides/3.6/user-guide/cloud_library.html
+Actually possible with Singularity account. More details at [https://sylabs.io/guides/3.6/user-guide/cloud_library.html](https://sylabs.io/guides/3.6/user-guide/cloud_library.html)
 
     singularity remote login
 
@@ -162,7 +163,7 @@ Build and image
 
 Interactive shell.
 
-   singularity shell fastqc-multi-bowtie.sif
+    singularity shell fastqc-multi-bowtie.sif
 
 ### Singularity run
 
@@ -206,7 +207,7 @@ Compare ```env``` command with and without -e modifier.
 
 Paths of host system mounted in the container
 
-* Default ones, no need to mount them explicitly (for 3.6.x): ```$HOME``` , ```/sys:/sys``` , ```/proc:/proc```, ```/tmp:/tmp```, ```/var/tmp:/var/tmp```, ```/etc/resolv.conf:/etc/resolv.conf```, ```/etc/passwd:/etc/passwd```, and ```$PWD``` (https://sylabs.io/guides/3.6/user-guide/bind_paths_and_mounts.html)
+* Default ones, no need to mount them explicitly (for 3.6.x): ```$HOME``` , ```/sys:/sys``` , ```/proc:/proc```, ```/tmp:/tmp```, ```/var/tmp:/var/tmp```, ```/etc/resolv.conf:/etc/resolv.conf```, ```/etc/passwd:/etc/passwd```, and ```$PWD``` [https://sylabs.io/guides/3.6/user-guide/bind_paths_and_mounts.html](https://sylabs.io/guides/3.6/user-guide/bind_paths_and_mounts.html)
 
 For others, need to be done explicitly (syntax: host:container)
 
@@ -219,7 +220,7 @@ For others, need to be done explicitly (syntax: host:container)
 
 ## Exercises:
 
-  Using the 2 fastqc available files, process them outside and inside mounted directory
+  Using the 2 fastqc available files, process them outside and inside the mounted directory.
 
 
 ## Instances
@@ -254,8 +255,8 @@ From: library/mariadb:10.3
 
 
 More information:
-* https://sylabs.io/guides/3.6/user-guide/running_services.html
-* https://sylabs.io/guides/3.6/user-guide/networking.html
+* [https://sylabs.io/guides/3.6/user-guide/running_services.html](https://sylabs.io/guides/3.6/user-guide/running_services.html)
+* [https://sylabs.io/guides/3.6/user-guide/networking.html](https://sylabs.io/guides/3.6/user-guide/networking.html)
 
 ## Troubleshooting
 
@@ -265,7 +266,7 @@ More information:
 
 Singularity permissions are an evolving field. If you don't have access to ```sudo```, it might be worth considering using **--fakeroot/-f** parameter.
 
-* More details at: https://sylabs.io/guides/3.6/user-guide/fakeroot.html
+* More details at [https://sylabs.io/guides/3.6/user-guide/fakeroot.html](https://sylabs.io/guides/3.6/user-guide/fakeroot.html)
 
 ### Singularity cache directory
 

@@ -10,14 +10,14 @@ navigation: 5
 
 <a href="https://www.nextflow.io/"><img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/nextf_groovy.png" width="600"></a>
 
-Nextflow (https://www.nextflow.io) is a domain specific language for workflow orchestration that stems from Groovy (https://groovy-lang.org/). It enables scalable and reproducible workflows using software containers. It was invented by Paolo Di Tommaso (https://github.com/pditommaso) and developed at CRG (www.crg.eu). The tool has a very good documentantion here https://www.nextflow.io/docs/latest/ and is currently in a upgrade between two main versions (DLS1 and DLS2). In this course we will use exclusively the DLS2.  
+[Nextflow](https://www.nextflow.io) is a domain specific language for workflow orchestration that stems from [Groovy](https://groovy-lang.org/). It enables scalable and reproducible workflows using software containers. It was developed at [CRG](www.crg.eu) in the Lab of Cedric Notredame by Paolo Di Tommaso [https://github.com/pditommaso](https://github.com/pditommaso). The Nextflow documentantion is [available here](https://www.nextflow.io/docs/latest/). Nextflow has been currently upgrade from DLS1 version to DLS2. In this course we will use exclusively DLS2.  
 
 ## What is Nextflow for?
-It is for making pipelines without caring about parallelization, dependencies, intermediate file names, data structures, handling exceptions, resuming executions etc. It was published In Nature Biotechnology.
+It is for making pipelines without caring about parallelization, dependencies, intermediate file names, data structures, handling exceptions, resuming executions etc. It was published in [Nature Biotechnology in 2017](https://pubmed.ncbi.nlm.nih.gov/28398311/).
 
 <a href="https://pubmed.ncbi.nlm.nih.gov/28398311/"><img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/NF_pub.png" width="600"></a>
 
-There is a growing number of publication mentioning Nextflow in PubMed, since many bioinformaticians are starting to write their pipeline with this tool.
+There is a growing number of publication mentioning Nextflow in PubMed, since many bioinformaticians are starting to write their pipeline in Nextflow.
 
 <a href="https://pubmed.ncbi.nlm.nih.gov/?term=nextflow&timeline=expanded&sort=pubdate&sort_order=asc"><img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/NF_mentioning.png" width="600"></a>
 
@@ -37,11 +37,11 @@ Nextflow can be executed on multiple platforms without modifiying the code. It s
 
 <img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/executors.png" width="600">
 
-- Scalable
+- Scalability
 
 Nextflow is based on the dataflow programming model which simplifies writing complex pipelines. The tool takes care of parallelizing the processes without additional written code. The resulting applications are inherently parallel and can scale-up or scale-out, transparently, without having to adapt to a specific platform architecture.
 
-- Resumable, thanks to continuous checkpoints.
+- Resumable, thanks to continuous checkpoints
 
 All the intermediate results produced during the pipeline execution are automatically tracked. For each process a temporary folder is created and is cached (or not) once resuming an execution.
 
@@ -165,10 +165,10 @@ Once executed we can see that a folder named **work** is generated. In that fold
 ### EXCERCISE 1
 Let's create couple of files (like paired end reads) and let's try to read it as they were a tuple.
 
-See here https://www.nextflow.io/docs/latest/channel.html#fromfilepairs
+See here [https://www.nextflow.io/docs/latest/channel.html#fromfilepairs](https://www.nextflow.io/docs/latest/channel.html#fromfilepairs).
 
 Here the solution:
-https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution1.html
+[https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution1.html](https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution1.html)
 
 ### Processes
 
@@ -418,7 +418,7 @@ workflow pipeline {
 ```
 
 Solution here:
-https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution2.html
+[https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution2.html](https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution2.html)
 
 
 ## More complex scripts
@@ -653,11 +653,11 @@ Launching `test.nf` [insane_plateau] - revision: d33befe154
 Write the first workflow using pipes. Nextflow DLS2 allows you to use pipes for connecting channels via input / output.
 See documentation here:
 
-https://www.nextflow.io/docs/latest/dsl2.html#pipes
+[https://www.nextflow.io/docs/latest/dsl2.html#pipes](https://www.nextflow.io/docs/latest/dsl2.html#pipes)
 
 Here the solution:
 
-https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution3.html
+[https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution3.html](https://biocorecrg.github.io/ELIXIR_containers_nextflow/solution3.html)
 
 
 ## Resuming your pipeline
@@ -774,7 +774,7 @@ process fastQC {
 ...
 ```
 
-The latest two rows of the config file indicates which container needs to be used. In this case, it assumes has to be pulled from DockerHub (https://hub.docker.com/). In case you want to use singularity you can indicate where to store the local image by using the **singularity.cacheDir** setting
+The latest two rows of the config file indicates which container needs to be used. In this case, it assumes has to be pulled from [DockerHub](https://hub.docker.com/). In case you want to use singularity you can indicate where to store the local image by using the **singularity.cacheDir** setting
 
 ```nextflow
 process.container = 'biocorecrg/c4lwg-2018:latest'
@@ -1182,7 +1182,7 @@ While we keep the information of the container inside the module for better repr
 params.CONTAINER = = "quay.io/biocontainers/fastqc:0.11.9--0"
 ```
 
-Here you see that we are not using own our image but using directly one provided by biocontainers. Here you can find a list of fastqc images developed and stored by the biocontainers community https://biocontainers.pro/#/tools/fastqc.
+Here you see that we are not using own our image but using directly one provided by biocontainers. Here you can find a list of fastqc images developed and stored by the biocontainers community [https://biocontainers.pro/#/tools/fastqc](https://biocontainers.pro/#/tools/fastqc).
 
 Let's have a look now at the **multiqc.nf** module:
 
@@ -1257,7 +1257,7 @@ singularity.cacheDir = "$baseDir/singularity"
 
 **EXERCISE**: Try to make a module wrapper of the bowtie tool and change the script accordingly as the test3.
 
-Solution at the folder test5
+Solution in the folder test5
 
 ## Reporting and graphical interface
 Nextflow has an embedded function for reporting a number of informations about the resources needed by each job and the timing. Just adding a parameter will give you a nice html report.
