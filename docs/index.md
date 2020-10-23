@@ -6,55 +6,40 @@ navigation: 1
 
 ![logo](https://raw.githubusercontent.com/CRG-CNAG/BioCoreMiscOpen/master/logo/biocore-logo_small.png) 
 
-# Containers + Nextflow course 2020
+# ELIXIR_containers_nextflow
 
+ELIXIR VIB-CRG courses on containers (Docker + Singularity) and Nextflow.
 
-## Dates, time & location
+Webpage https://biocorecrg.github.io/ELIXIR_containers_nextflow/
 
+## When & Where
 
-Dates:
+26 & 27 Oct 2020 - online<br>
 
-| Day  | Date  | Time  |
-| :---:  | :---  | ---:  |
-| 1 | Thursday 11th of June 2020|9:30-18:00|
-| 2 | Friday 12th of June 2020|9:30-18:00| 
+Schedule:
+- 9:30  - 11:00 - session
+- 11:00 - 11:15 - break
+- 11:15 - 12:45 - session
+- 12:45 - 13:45 - lunch
+- 13:45 - 15:15 - session
+- 15:15 - 15:30 - break
+- 15:30 - 17:00 - session
 
+## Target audience
 
+Bioinformaticians with no or little knowledge of containers.
 
-<br/>
-<br/>
+## Requirements
 
-## Instructors
+If trainees bring their own laptop, they should install:
 
-|[Luca Cozzuto](mailto:luca.cozzuto@crg.eu)|[Toni Hermoso](mailto:toni.hermoso@crg.eu) |[Sarah Bonnin](mailto:sarah.bonnin@crg.eu) |
-| :---:  | :---:  | :---:  |
-|<a href="https://biocore.crg.eu/wiki/User:Lcozzuto"><img src="images/lcozzuto.jpg" width="100"/> </a>|<a href="https://biocore.crg.eu/wiki/User:Thermoso"><img src="images/Thermoso.jpg" width="100"/>|<a href="https://biocore.crg.eu/wiki/User:Sbonnin"><img src="images/sbonnin.jpg" width="100"/></a> | 
+* VNC viewer
 
-from the [CRG](https://www.crg.eu/) [Bioinformatics core facility](https://biocore.crg.eu/) in Barcelona, Catalonia, Spain.
+* Discord / Zoom / GoTo meeting
 
-Material available at https://biocorecrg.github.io/CRG_Containers_Nextflow
+## Format
 
-## Learning objectives
-
-* Learn the concept of containers: what is a container, what is an image ?
-* Understand the difference between Docker and Singularity
-* Understand a container's "recipe"
-* Learn about Docker hub
-* Understand Nextflow's basic concepts: processes, channels, ...
-* Learn how to write and run a Nextflow pipeline
-
-## Learning outcomes
-
-* Docker images and containers: run, push, pull, remove
-* Write Docker recipe
-* Build and run Docker image
-* Pull and push Docker container to / from Docker hub
-* Pull Docker container as Singularity image
-* Write and run a simple Nextflow pipeline
-* Write and run a simple Nextflow pipeline using a Singularity container
-
-##  Course Program
-
+2 full days, organized as follows:
 * Day 1: containers
   * Introduction to containers
     * History of containers
@@ -109,7 +94,46 @@ Material available at https://biocorecrg.github.io/CRG_Containers_Nextflow
    * channels
    * operators
   * Write and run a simple Nextflow pipeline (e.g. print text, process a simple calculation)
+  * Executors
+    * local vs queue vs cloud systems
+    * memory, time and CPU allocation
   * Including Docker and Singularity containers in Nextflow pipelines
+  * Additional functions
+    * Tracing, charts
+    * Workflow
+    * Mail notification
+    * Web monitoring: tower.nf
+
+## Learning objectives
+
+* Learn the concept of containers: what is a container, what is an image ?
+* Understand the difference between Docker and Singularity
+* Understand a container's "recipe"
+* Learn about Docker hub
+* Understand Nextflow's basic concepts: processes, channels, ...
+* Learn how to write and run a Nextflow pipeline
+
+## Learning outcomes
+
+* Docker images and containers: run, push, pull, remove
+* Write Docker recipe
+* Build and run Docker image
+* Pull and push Docker container to / from Docker hub
+* Pull Docker container as Singularity image
+* Write and run a simple Nextflow pipeline
+* Write and run a simple Nextflow pipeline using a Singularity container
+
+
+
+
+## Instructors
+
+|[Luca Cozzuto](mailto:luca.cozzuto@crg.eu)|[Toni Hermoso](mailto:toni.hermoso@crg.eu) |[Sarah Bonnin](mailto:sarah.bonnin@crg.eu) |
+| :---:  | :---:  | :---:  |
+|<a href="https://biocore.crg.eu/wiki/User:Lcozzuto"><img src="images/lcozzuto.jpg" width="100"/> </a>|<a href="https://biocore.crg.eu/wiki/User:Thermoso"><img src="images/Thermoso.jpg" width="100"/>| 
+
+from the [CRG](https://www.crg.eu/) [Bioinformatics core facility](https://biocore.crg.eu/) in Barcelona, Catalonia, Spain.
+
 
 ## Prerequisites
 
