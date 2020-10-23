@@ -6,7 +6,7 @@ navigation: 4
 
 # Singularity
 
-<img src="https://biocorecrg.github.io/CRG_Containers_Nextflow/images/singularity_logo.svg" width="300">
+<img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/singularity_logo.svg" width="300">
 
 ## Intoduction to Singularity
 
@@ -18,7 +18,7 @@ navigation: 4
 
 ### Singularity architecture
 
-<img src="https://biocorecrg.github.io/CRG_Containers_Nextflow/images/singularity_architecture.png" width="800">
+<img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/singularity_architecture.png" width="800">
 
 ### Strengths
 
@@ -41,7 +41,7 @@ navigation: 4
 
 ## Build process
 
-<img src="https://biocorecrg.github.io/CRG_Containers_Nextflow/images/singularity_build_input_output.svg" width="600">
+<img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/singularity_build_input_output.svg" width="600">
 
 ### Examples
 
@@ -284,4 +284,4 @@ Normally at ```/etc/singularity/singularity.conf``` or similar (e.g preceded by 
 
 |          |       |      |
 | :------- | :---: | ---: |
-| [Previous page](https://biocorecrg.github.io/CRG_Containers_NextFlow/introduction_docker.html) | [Home](https://biocorecrg.github.io/CRG_Containers_NextFlow/)  | [Next page](https://biocorecrg.github.io/CRG_Containers_NextFlow/nextflow.html) |
+| [Previous page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/introduction_docker.html) | [Home](https://biocorecrg.github.io/ELIXIR_containers_nextflow/)  | [Next page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/nextflow.html) |

@@ -530,4 +530,4 @@ We explore interactively the different examples in the container/docker folders.
 
 |          |       |      |
 | :------- | :---: | ---: |
-| [Previous page](https://biocorecrg.github.io/CRG_Containers_NextFlow/introduction_containers.html) | [Home](https://biocorecrg.github.io/CRG_Containers_NextFlow/)  | [Next page](https://biocorecrg.github.io/CRG_Containers_NextFlow/singularity.html) |
+| [Previous page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/introduction_containers.html) | [Home](https://biocorecrg.github.io/ELIXIR_containers_nextflow/)  | [Next page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/singularity.html) |

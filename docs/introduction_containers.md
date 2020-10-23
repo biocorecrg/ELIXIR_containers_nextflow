@@ -69,4 +69,4 @@ Missing image from original presentation: https://robin.io/blog/containers-deep-
 
 |          |       |      |
 | :------- | :---: | ---: |
-| [Previous page](https://biocorecrg.github.io/CRG_Containers_NextFlow/) | [Home](https://biocorecrg.github.io/CRG_Containers_NextFlow/)  | [Next page](https://biocorecrg.github.io/CRG_Containers_NextFlow/docker.html) |
+| [Previous page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/) | [Home](https://biocorecrg.github.io/ELIXIR_containers_nextflow/)  | [Next page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/docker.html) |
