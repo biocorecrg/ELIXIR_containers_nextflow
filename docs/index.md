@@ -39,8 +39,8 @@ If trainees bring their own laptop, they should install:
 
 ## Format
 
-2 full days, organized as follows:
-* Day 1: containers
+2 full days:
+* Day 1: Containers
   * Introduction to containers
     * History of containers
     * What are containers? Why to use them?
@@ -64,7 +64,6 @@ If trainees bring their own laptop, they should install:
       * Build and run.
     * Working with volumes: *docker run -v ...*
     * Working with ports
-    * ...
   * Singularity
     * Installation ?
     * Differences between Singularity and Docker: why and when to use one or the other. Pros and cons.
@@ -128,8 +127,8 @@ If trainees bring their own laptop, they should install:
 
 ## Instructors
 
-|[Luca Cozzuto](mailto:luca.cozzuto@crg.eu)|[Toni Hermoso](mailto:toni.hermoso@crg.eu) |[Sarah Bonnin](mailto:sarah.bonnin@crg.eu) |
-| :---:  | :---:  | :---:  |
+|[Luca Cozzuto](mailto:luca.cozzuto@crg.eu)|[Toni Hermoso](mailto:toni.hermoso@crg.eu) |
+| :---:  | :---:  |
 |<a href="https://biocore.crg.eu/wiki/User:Lcozzuto"><img src="images/lcozzuto.jpg" width="100"/> </a>|<a href="https://biocore.crg.eu/wiki/User:Thermoso"><img src="images/Thermoso.jpg" width="100"/>| 
 
 from the [CRG](https://www.crg.eu/) [Bioinformatics core facility](https://biocore.crg.eu/) in Barcelona, Catalonia, Spain.
