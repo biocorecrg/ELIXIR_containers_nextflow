@@ -1,0 +1,14 @@
+- text: Home
+  url: /CRG_Containers_NextFlow/
+- text: First menu
+  url: /CRG_Containers_NextFlow/docker/
+  subitems:
+    - text: First menu (sub)
+      url: /CRG_Containers_NextFlow/singularity/
+      subitems:
+        - text: First menu (sub-sub)
+          url: /CRG_Containers_NextFlow/nextflow/
+- text: Second menu
+  subitems:
+    - text: Second menu (sub)
+      url: /CRG_Containers_NextFlow/docker/

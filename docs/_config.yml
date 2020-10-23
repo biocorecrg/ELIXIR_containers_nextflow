@@ -1,0 +1,23 @@
+title: ELIXIR Containers and Nextflow course 2020
+description: ELIXIR Containers and Nextflow course
+url: "https://biocorecrg.github.io//ELIXIR_containers_nextflow/" 
+
+# Build settings
+highlighter: rouge
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+sass:
+  sass_dir: _sass
+  style: compressed
