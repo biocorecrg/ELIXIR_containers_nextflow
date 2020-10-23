@@ -10,7 +10,7 @@ navigation: 1
 
 ELIXIR VIB-CRG courses on containers (Docker + Singularity) and Nextflow.
 
-Webpage https://biocorecrg.github.io/ELIXIR_containers_nextflow/
+Webpage [https://biocorecrg.github.io/ELIXIR_containers_nextflow/](https://biocorecrg.github.io/ELIXIR_containers_nextflow/)
 
 ## When & Where
 
