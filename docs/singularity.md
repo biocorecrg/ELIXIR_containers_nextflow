@@ -143,7 +143,7 @@ Version 0.1.0
     sudo singularity build fastqc-multi-bowtie.sif debootstrap.singularity
 
 
-## Remote building
+## Remote building (optional)
 
 Actually possible with Singularity account. More details at [https://sylabs.io/guides/3.6/user-guide/cloud_library.html](https://sylabs.io/guides/3.6/user-guide/cloud_library.html)
 
