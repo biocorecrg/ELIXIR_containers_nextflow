@@ -138,4 +138,7 @@ from the [CRG](https://www.crg.eu/) [Bioinformatics core facility](https://bioco
 
 [Familiarity with the Linux command line](https://biocorecrg.github.io/advanced_linux_2019/)
 
+|          |       |
+| :------- | :---: |
+| [Home](https://biocorecrg.github.io/ELIXIR_containers_nextflow/)  | [Next page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/introduction_containers.html) |
 

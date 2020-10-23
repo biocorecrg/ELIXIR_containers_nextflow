@@ -55,7 +55,7 @@ source https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popula
 
 <a href="https://sysopsio.files.wordpress.com/2016/09/linux-chroot-jail.png"><img src="https://sysopsio.files.wordpress.com/2016/09/linux-chroot-jail.png" width="550/"></a>
 
-source https://sysopsio.wordpress.com/2016/09/09/jails-in-linux/
+Source: https://sysopsio.wordpress.com/2016/09/09/jails-in-linux/
 
 ### Additions in Linux kernel
 
@@ -64,8 +64,8 @@ source https://sysopsio.wordpress.com/2016/09/09/jails-in-linux/
 * Linux namespaces
 	* one set of kernel resources restrict to one set of processes
 
-Missing image from original presentation: https://robin.io/blog/containers-deep-dive-lxc-vs-docker-comparison/
-
+<img src="/images/linux-vs-docker-comparison-architecture-docker-lxc.png" width="600" />
+Source: https://sysopsio.wordpress.com/2016/09/09/jails-in-linux/
 
 |          |       |      |
 | :------- | :---: | ---: |
