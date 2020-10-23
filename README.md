@@ -2,6 +2,8 @@
 
 ELIXIR VIB-CRG courses on containers (Docker + Singularity) and Nextflow.
 
+Webpage https://biocorecrg.github.io/ELIXIR_containers_nextflow/
+
 ## When & Where ?
 
 26 & 27 Oct 2020 - online<br>
