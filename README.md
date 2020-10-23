@@ -6,6 +6,15 @@ ELIXIR VIB-CRG courses on containers (Docker + Singularity) and Nextflow.
 
 26 & 27 Oct 2020 - online.
 
+Schedule:
+9:30  - 11:00 - session
+11:00 - 11:15 - break
+11:15 - 12:30 - session
+12:45 - 13:45 - lunch
+13:45 - 15:15 - session
+15:15 - 15:30 - break
+15:30 - 17:00 - session
+
 ## Target audience
 
 Bioinformaticians with no or little knowledge of containers.
