@@ -10,11 +10,11 @@ navigation: 2
 
 A Container can be seen as a **minimal virtual environment** that can be used in any Linux-compatible machine (and beyond).
 
-Using containers is time- and resources-saving as they allow:
+Using containers is time- and resource-saving as they allow:
 * Controlling for software installation and dependencies.
 * Reproducibility of the analysis.
 
-This allows us to use **exactly the same versions of the tools**.
+Containers allow us to use **exactly the same versions of the tools**.
 
 ## Virtual machines or containers ?
 
@@ -26,7 +26,7 @@ This allows us to use **exactly the same versions of the tools**.
 * Enable virtual machines:
 	* Every virtual machine with an OS (Operating System)
 
-### Containerisation (akaLightweight virtualisation)
+### Containerisation (aka lightweight virtualisation)
 
 * Abstraction of application layer
 * Depends on host kernel (OS)
