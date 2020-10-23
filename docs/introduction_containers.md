@@ -64,7 +64,7 @@ Source: https://sysopsio.wordpress.com/2016/09/09/jails-in-linux/
 * Linux namespaces
 	* one set of kernel resources restrict to one set of processes
 
-<img src="/images/linux-vs-docker-comparison-architecture-docker-lxc.png" width="600" />
+<img src="/ELIXIR_containers_nextflow/images/linux-vs-docker-comparison-architecture-docker-lxc.png" width="600" />
 Source: https://sysopsio.wordpress.com/2016/09/09/jails-in-linux/
 
 |          |       |      |
