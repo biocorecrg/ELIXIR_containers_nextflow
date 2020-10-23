@@ -1317,5 +1317,8 @@ We finally go to the tower website again:
 
 <img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/tower3.png" width="800">
 
+|          |       |      |
+| :------- | :---: | ---: |
+| [Previous page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/singularity.html) | [Home](https://biocorecrg.github.io/ELIXIR_containers_nextflow/)  | [Next page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/resources.html) |
 
 
