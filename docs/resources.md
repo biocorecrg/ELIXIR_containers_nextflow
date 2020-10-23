@@ -4,6 +4,7 @@ title: Resources
 navigation: 6
 ---
 
+# Resources
 
 * https://docker-curriculum.com/
 * https://www.tutorialspoint.com/docker/index.htm
