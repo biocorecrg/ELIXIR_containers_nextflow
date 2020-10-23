@@ -14,3 +14,7 @@ navigation: 6
 * [https://github.com/biocorecrg/containers-course](https://github.com/biocorecrg/containers-course)
 * [https://www.nextflow.io/docs/latest/index.html](https://www.nextflow.io/docs/latest/index.html)
 * [https://nf-co.re/usage/nextflow_tutorial](https://nf-co.re/usage/nextflow_tutorial)
+
+|          |       |
+| :------- | :---: |
+| [Previous page](https://biocorecrg.github.io/ELIXIR_containers_nextflow/nextflow.html) | [Home](https://biocorecrg.github.io/ELIXIR_containers_nextflow/)  |
