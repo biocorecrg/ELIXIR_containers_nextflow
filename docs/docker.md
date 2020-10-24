@@ -274,7 +274,7 @@ docker exec -ti fastqc /bin/bash
 
 * Exercises:
 1. Copy the 2 fastq files from available datasets in Github repository and place them in mounted directory
-2. Run fastqc interactively (inside container): ```fastqc  datatest/myfastq.fastq.gz```
+2. Run fastqc interactively (inside container): ```fastqc  /scratch/myfastq.fastq.gz```
 3. Run fastqc outside the container
 
 ## Ports
