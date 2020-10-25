@@ -149,7 +149,7 @@ Actually possible with Singularity account. More details at [https://sylabs.io/g
 
     singularity remote login
 
-Create account and tokenfile
+Create account and tokenfile at [https://cloud.sylabs.io/](Sylabs Cloud)
 
     singularity remote login --tokenfile mytokenfile
 
