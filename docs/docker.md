@@ -259,8 +259,10 @@ docker system prune
 
 Remove ALL non-running containers, images, etc. - **DO WITH MUCH MORE CARE!!!**
 ```bash
-docker system prune
+docker system prune -a
 ```
+
+* Reference: https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 
 ## Volumes
 
