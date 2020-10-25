@@ -257,6 +257,11 @@ Remove unused containers (and others) - **DO WITH CARE**
 docker system prune
 ```
 
+Remove ALL non-running containers, images, etc. - **DO WITH MUCH MORE CARE!!!**
+```bash
+docker system prune
+```
+
 ## Volumes
 
 Docker containers are fully isolated. It is necessary to mount volumes in order to handle input/output files.
