@@ -155,7 +155,7 @@ Create account and tokenfile
 
 Build and image
 
-    singularity build --remote focal.sif docker://ubuntu:foca
+    singularity build --remote focal.sif docker://ubuntu:focal
 
 ## Run and execution process
 
