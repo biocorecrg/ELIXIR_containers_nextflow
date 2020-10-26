@@ -153,7 +153,7 @@ Create account and tokenfile at [https://cloud.sylabs.io/](Sylabs Cloud)
 
     singularity remote login --tokenfile mytokenfile
 
-Build and image
+Build an image
 
     singularity build --remote focal.sif docker://ubuntu:focal
 
