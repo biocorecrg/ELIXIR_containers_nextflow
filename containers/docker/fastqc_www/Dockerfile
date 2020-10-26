@@ -5,10 +5,6 @@ MAINTAINER Toni Hermoso Pulido <toni.hermoso@crg.eu>
 
 RUN apt-get update; apt-get install -y curl;
 
-# Default location of BLAST databases
-VOLUME /blastdb
-ENV BLASTDB /blastdb
-
 # Now adding web stuff
 RUN apt-get install -y php-cli
 
