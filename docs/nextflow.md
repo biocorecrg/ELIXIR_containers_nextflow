@@ -10,7 +10,7 @@ navigation: 5
 
 <a href="https://www.nextflow.io/"><img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/nextf_groovy.png" width="600"></a>
 
-[Nextflow](https://www.nextflow.io) is a domain specific language for workflow orchestration that stems from [Groovy](https://groovy-lang.org/). It enables scalable and reproducible workflows using software containers. It was developed at [CRG](www.crg.eu) in the Lab of Cedric Notredame by Paolo Di Tommaso [https://github.com/pditommaso](https://github.com/pditommaso). The Nextflow documentantion is [available here](https://www.nextflow.io/docs/latest/) and you can ask help to the community using their gitter channel: https://gitter.im/nextflow-io/nextflow
+[Nextflow](https://www.nextflow.io) is a domain specific language for workflow orchestration that stems from [Groovy](https://groovy-lang.org/). It enables scalable and reproducible workflows using software containers. It was developed at [CRG](www.crg.eu) in the Lab of Cedric Notredame by Paolo Di Tommaso [https://github.com/pditommaso](https://github.com/pditommaso). The Nextflow documentantion is [available here](https://www.nextflow.io/docs/latest/) and you can ask help to the community using their [gitter channel](https://gitter.im/nextflow-io/nextflow)
 
 Nextflow has been currently upgrade from DLS1 version to DLS2. In this course we will use exclusively DLS2.  
 
@@ -23,18 +23,14 @@ There is a growing number of publication mentioning Nextflow in PubMed, since ma
 
 <a href="https://pubmed.ncbi.nlm.nih.gov/?term=nextflow&timeline=expanded&sort=pubdate&sort_order=asc"><img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/NF_mentioning.png" width="600"></a>
 
-Here a curated list of Nextflow pipelines:
+Here a curated list of [Nextflow pipelines](https://github.com/nextflow-io/awesome-nextflow)
 
-https://github.com/nextflow-io/awesome-nextflow
-
-And here a group of pipelines written in a collaborative way:
-
-https://nf-co.re/pipelines
+And here a group of pipelines written in a collaborative way from project [NF-core](https://nf-co.re/pipelines)
 
 Some pipelines written in Nextflow are being used for SARS-Cov-2 analysis like:
-- the one from the artic Network (https://artic.network/ncov-2019): https://github.com/connor-lab/ncov2019-artic-nf
-- the one used from the CRG / EGA viral Beacon (https://covid19beacon.crg.eu/info) https://github.com/biocorecrg/master_of_pores
-- the nf-core pipeline https://nf-co.re/viralrecon
+- the one from the [artic Network](https://artic.network/ncov-2019): [ncov2019-artic-nf](https://github.com/connor-lab/ncov2019-artic-nf)
+- the one used from the [CRG / EGA viral Beacon](https://covid19beacon.crg.eu/info), [Master of Pores](https://github.com/biocorecrg/master_of_pores)
+- the nf-core pipeline [viralrecon](https://nf-co.re/viralrecon)
 
 etc. 
 
