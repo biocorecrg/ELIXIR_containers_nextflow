@@ -273,15 +273,15 @@ Syntax: **--volume/-v** *host:container*
 ```bash
 mkdir datatest
 touch datatest/test
-docker run --detach --volume $(pwd)/datatest:/scratch --name myfastqc biocontainers/fastqc:v0.11.9_cv7 tail -f /dev/null
-docker exec -ti fastqc /bin/bash
+docker run --detach --volume $(pwd)/datatest:/scratch --name fastqc_container biocontainers/fastqc:v0.11.9_cv7 tail -f /dev/null
+docker exec -ti fastqc_container /bin/bash
 > ls -l /scratch
 > exit
 ```
 
 * Exercises:
 1. Copy the 2 fastq files from available datasets in Github repository and place them in mounted directory
-2. Run fastqc interactively (inside container): ```fastqc  /scratch/myfastq.fastq.gz```
+2. Run fastqc interactively (inside container): ```fastqc  /scratch/*.gz```
 3. Run fastqc outside the container
 
 ## Ports
