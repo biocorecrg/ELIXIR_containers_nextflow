@@ -273,7 +273,7 @@ Syntax: **--volume/-v** *host:container*
 ```bash
 mkdir datatest
 touch datatest/test
-docker run --detach --volume $(pwd)/datatest:/scratch --name fastqc biocontainers/fastqc:v0.11.9_cv7 tail -f /dev/null
+docker run --detach --volume $(pwd)/datatest:/scratch --name myfastqc biocontainers/fastqc:v0.11.9_cv7 tail -f /dev/null
 docker exec -ti fastqc /bin/bash
 > ls -l /scratch
 > exit
