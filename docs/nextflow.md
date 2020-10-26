@@ -23,6 +23,20 @@ There is a growing number of publication mentioning Nextflow in PubMed, since ma
 
 <a href="https://pubmed.ncbi.nlm.nih.gov/?term=nextflow&timeline=expanded&sort=pubdate&sort_order=asc"><img src="https://biocorecrg.github.io/ELIXIR_containers_nextflow/images/NF_mentioning.png" width="600"></a>
 
+Here a curated list of Nextflow pipelines:
+
+https://github.com/nextflow-io/awesome-nextflow
+
+And here a group of pipelines written in a collaborative way:
+
+https://nf-co.re/pipelines
+
+Some pipelines written in Nextflow are being used for SARS-Cov-2 analysis like:
+- the one from the artic Network (https://artic.network/ncov-2019): https://github.com/connor-lab/ncov2019-artic-nf
+- the one used from the CRG / EGA viral Beacon (https://covid19beacon.crg.eu/info) https://github.com/biocorecrg/master_of_pores
+- the nf-core pipeline https://nf-co.re/viralrecon
+
+etc. 
 
 ## Main advantages:
 
