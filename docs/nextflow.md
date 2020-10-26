@@ -103,7 +103,7 @@ This command download from the a github repository and it runs the test script h
 
 We can make a very simple Nextflow script by writing this code in a file (test.nf):
 
-```nextf_groovy
+```nextflow
 #!/usr/bin/env nextflow
 
 // This is a comment
@@ -146,7 +146,7 @@ touch aa.txt bb.txt cc.txt
 
 And let's create another script:
 
-```groovy
+```nextflow
 #!/usr/bin/env nextflow
 
 nextflow.enable.dsl=2
