@@ -31,11 +31,11 @@ nextflow.enable.dsl=2
  * NextFlow example from their website 
  */
  
-params.inputfile = "$baseDir/../testdata/test.fa"	// this can be overridden by using --inputfile OTHERFILENAME
+params.inputfile = "$baseDir/../../testdata/test.fa"	// this can be overridden by using --inputfile OTHERFILENAME
 
 sequences_file = file(params.inputfile)				// the "file method" returns a file system object given a file path string  
 
-if( !sequences_file.exists() ) exit 1, "Missing genome file: ${genome_file}" // check if the file exists
+if( !sequences_file.exists() ) exit 1, "Missing genome file: ${params.inputfile}" // check if the file exists
 
 
 /*
